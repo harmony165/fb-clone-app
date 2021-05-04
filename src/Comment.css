@@ -1,0 +1,98 @@
+.comment{
+    display: flex;
+    color:#03ff2d;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50   px;
+    background-color: rgb(0, 24, 1) ;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+.comment__image{
+    padding: 5px;
+    margin: 0px
+}
+.comment__image > img {
+    width:100%
+}   
+.comment__top{
+    display: flex;
+    flex-grow: 4;
+    justify-content: space-between;
+    position:relative;
+    align-items: center;
+    padding: 5px;
+    background-color: #000000 ;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.comment__left{
+    display: flex;
+    align-items: center;
+}
+.comment__avatar {
+    margin-right:10px;
+}
+
+.comment__topInfo > h3 {
+    display: flex;
+    font-size: small;
+}
+
+.delete{
+    font-size: small;
+    color: #03ff2d;
+    
+ 
+}
+
+
+
+.comment__likes{
+    cursor: pointer;
+    display: flex;
+    font-size: x-small;
+    align-items: center;
+}
+
+.likeButton{
+    display: flex;
+    
+}
+
+.likeButton > .MuiSvgIcon-root{
+    font-size: x-small;
+    color:#00dd12;
+    
+}
+.comment__topInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__topInfo > p {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    color: grey;    
+}
+
+.comment__bottom{
+    display: flex;
+    font-size: xx-small; 
+    align-items: center;
+    color: #03ff2d;
+    margin-right: 10px;
+}
+
+
+.likes{
+    display: flex;
+    font-size: x-small  ;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    cursor: default;
+}

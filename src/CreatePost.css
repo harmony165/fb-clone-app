@@ -1,0 +1,44 @@
+.createPost{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+    width: 100%;
+}
+
+.createPost__top{
+    display: flex;
+    border-bottom: 1px solid #017e15;
+    padding-bottom: 15px;
+    padding: 15px;
+    
+}
+
+.createPost__top > form{
+    flex: 1;
+    display: flex;
+    
+}
+
+.createPost__top > form > input{
+    outline-width: 0;
+    border:none;
+    padding:5px 20px;
+    margin:0 10px;
+    border-radius:999px;
+    background-color: black;
+    color:rgb(0, 236, 20);
+}
+
+.createPost__top > form > button{
+    display:none;
+}
+
+.createPost__input{
+    background-color: black;
+    color:rgb(0, 236, 20);
+    flex: 1;
+}

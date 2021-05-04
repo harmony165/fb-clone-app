@@ -1,0 +1,46 @@
+.CreateComment{
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+    width: 100%;
+}
+
+.createComment__top{
+    display: flex;
+    border-bottom: 1px solid #017e15;
+    padding-bottom: 15px;
+    padding: 15px;
+    background-color: black;
+    margin: 0px 10px 10px 10px;
+    border-radius: 999px;
+    
+}
+
+.createComment__top > form{
+    flex: 1;
+    display: flex;
+    
+}
+
+.createComment__top > form > input{
+    outline-width: 0;
+    border:none;
+    padding:5px 20px;
+    margin:0 10px;
+    border-radius:999px;
+    background-color: black;
+    color:rgb(0, 236, 20);
+}
+
+.createComment__top > form > button{
+    display:none;
+}
+
+.createComment__input{
+    background-color: black;
+    color:rgb(0, 236, 20);
+    flex: 1;
+}
